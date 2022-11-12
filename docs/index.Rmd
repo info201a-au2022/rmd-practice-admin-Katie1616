@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Covid Report
-I write a paragraph here. I will highlight that the total number of US cases is `r get_total_cases()`. And, the total number of US deaths is `r get_total_deaths()`. 
+Over the course of the COVID-19 pandemic there have been over 97,753,981 cases. These cases are all positive test, but come with a variety of different symptoms. Some of these symptoms are short-term and only last during the positive test, while others last much longer. Since COVID-19 is relatively new we have no real understanding of it's lasting impact. Of the cases 1,070,403 have resulted in death. 
 
 (**Note**: Why are there no commas in the *total number of US deaths* ? Can you change `analysis.R` file so that the number is commented with commas?)
 
